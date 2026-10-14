@@ -1,0 +1,55 @@
+{
+  "name": "dsh-mobile-lite",
+  "version": "0.1.0",
+  "description": "DSH Web 移动端适配（精简版）：窄屏三栏折叠为单栏、侧栏改浮层抽屉、底部导航栏、竖屏排版与安全区避让。桌面端（鼠标指针）任何宽度均为 no-op。",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "mobile",
+    "responsive"
+  ],
+  "license": "MIT",
+  "author": "DeepSeek AI",
+  "contributors": [
+    "crazymiovo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazymiovo/dsh-mobile-lite.git"
+  },
+  "homepage": "https://github.com/crazymiovo/dsh-mobile-lite#readme",
+  "bugs": {
+    "url": "https://github.com/crazymiovo/dsh-mobile-lite/issues"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/*.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  }
+}

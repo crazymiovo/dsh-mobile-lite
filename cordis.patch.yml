@@ -1,0 +1,6 @@
+# dsh-mobile-lite bundle patch: one client-only plugin row.
+# 浏览器半边通过 package.json 的 dsh.client 声明发现；
+# 宿主半边是空 apply，只为让该行存在于 Host Loader。
+- insert:
+    - id: dsh-mobile-lite
+      name: 'dsh-mobile-lite'
