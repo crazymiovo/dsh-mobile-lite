@@ -46,7 +46,7 @@
 
 ## 安装
 
-### 从 GitHub 安装（推荐）
+### GitHub 直装
 
 ```sh
 dsh plugin --profile web add github:crazymiovo/dsh-mobile-lite
@@ -61,24 +61,19 @@ dsh plugin --profile web add github:crazymiovo/dsh-mobile-lite#v0.1.0
 本插件的 `lib/` 是手写的模块 bundle、**已随仓库提交**，所以从 git 安装**不需要任何构建步骤**
 （pnpm 拿到裸源码即可直接用）。
 
-### 从 npm 安装
-
-```sh
-dsh plugin --profile web add dsh-mobile-lite
-```
+> **分发渠道**：本插件目前只通过 GitHub 分发，**未发布到 npm**。
+> 因此在 DSH 的插件市场里搜不到它，请用上面的命令安装。
 
 ### ⚠️ 装完必须补一步，否则「装了没反应」
 
 `dsh plugin` 实际只是把参数转发给 pnpm，**它不会把包名写进 `dsh.profile.bundles`**，
 而 DSH 启动时是按 `dsh.profile.bundles` 这个有序列表加载插件的。
 
-所以无论用上面哪种方式，装完都要：
+所以装完要：
 
 1. 打开 `~/.dsh/profiles/web/package.json`
 2. 把 `"dsh-mobile-lite"` 加进 `dsh.profile.bundles` 数组
 3. **重启 dsh web**
-
-（如果你是通过 DSH 的图形插件市场安装的，市场会自动完成这一步，可跳过。）
 
 ### 生效
 
