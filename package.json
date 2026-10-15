@@ -1,7 +1,7 @@
 {
   "name": "dsh-mobile-lite",
-  "version": "0.1.0",
-  "description": "DSH Web 移动端适配（精简版）：窄屏三栏折叠为单栏、侧栏改浮层抽屉、底部导航栏、竖屏排版与安全区避让。桌面端（鼠标指针）任何宽度均为 no-op。",
+  "version": "0.1.1",
+  "description": "DSH Web 移动端适配（精简版）：窄屏三栏折叠为单栏、侧栏改浮层抽屉（支持边缘手势）、底部导航栏、键盘弹起让位、竖屏排版与安全区避让。桌面端（鼠标指针）任何宽度均为 no-op。",
   "keywords": [
     "deepseek",
     "deepseek-harness",
