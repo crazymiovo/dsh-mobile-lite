@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="342" viewBox="0 0 560 342" role="img" aria-label="DSH 移动端布局对比：改造前侧栏挤压中栏，改造后侧栏成浮层、中栏保持全宽">
+  <rect x="0" y="0" width="560" height="342" rx="12" fill="#081F5C"/>
+
+  <text x="20" y="22" fill="#BAD6EB" font-size="12" font-family="sans-serif" font-weight="bold">改造前</text>
+  <text x="20" y="37" fill="#7096D1" font-size="10" font-family="sans-serif">侧栏展开 = 挤压中栏</text>
+  <text x="300" y="22" fill="#D0E3FF" font-size="12" font-family="sans-serif" font-weight="bold">改造后</text>
+  <text x="300" y="37" fill="#7096D1" font-size="10" font-family="sans-serif">侧栏 = 浮层，中栏保持全宽</text>
+
+  <!-- ============ 左：改造前 ============ -->
+  <rect x="20" y="48" width="200" height="268" rx="9" fill="#0A1836" stroke="#334EAC" stroke-width="1.5"/>
+  <rect x="20" y="48" width="144" height="268" fill="#122A57"/>
+  <line x1="164" y1="48" x2="164" y2="316" stroke="#334EAC" stroke-width="1"/>
+  <rect x="31" y="64" width="86" height="13" rx="4" fill="#334EAC"/>
+  <rect x="31" y="85" width="70" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="31" y="101" width="78" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="31" y="117" width="62" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="31" y="139" width="90" height="8" rx="3" fill="#1B2E5C"/>
+  <rect x="31" y="155" width="76" height="8" rx="3" fill="#1B2E5C"/>
+  <rect x="31" y="171" width="84" height="8" rx="3" fill="#1B2E5C"/>
+  <text x="31" y="203" fill="#BAD6EB" font-size="10" font-family="sans-serif">会话列表</text>
+  <rect x="167" y="64" width="48" height="62" rx="5" fill="#0F2247"/>
+  <rect x="171" y="70" width="16" height="6" rx="2" fill="#334EAC"/>
+  <rect x="171" y="82" width="40" height="4" rx="2" fill="#2A3E70"/>
+  <rect x="171" y="91" width="34" height="4" rx="2" fill="#2A3E70"/>
+  <rect x="171" y="100" width="38" height="4" rx="2" fill="#2A3E70"/>
+  <rect x="171" y="109" width="28" height="4" rx="2" fill="#2A3E70"/>
+  <text x="132" y="152" fill="#7096D1" font-size="10" font-family="sans-serif">280px</text>
+  <text x="168" y="292" fill="#D0E3FF" font-size="10" font-family="sans-serif" font-weight="bold">110px</text>
+  <text x="166" y="306" fill="#7096D1" font-size="9" font-family="sans-serif">中栏残宽</text>
+  <text x="166" y="242" fill="#334EAC" font-size="9" font-family="sans-serif">文字竖排</text>
+
+  <!-- ============ 右：改造后 ============ -->
+  <rect x="300" y="48" width="200" height="268" rx="9" fill="#0A1836" stroke="#334EAC" stroke-width="1.5"/>
+  <rect x="300" y="48" width="200" height="238" fill="#0F2247"/>
+  <rect x="312" y="64" width="104" height="10" rx="3" fill="#BAD6EB"/>
+  <rect x="312" y="86" width="176" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="312" y="102" width="150" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="312" y="118" width="168" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="312" y="134" width="120" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="312" y="156" width="176" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="312" y="172" width="142" height="8" rx="3" fill="#2A3E70"/>
+  <rect x="300" y="286" width="200" height="30" fill="#122A57"/>
+  <line x1="400" y1="286" x2="400" y2="316" stroke="#334EAC" stroke-width="1"/>
+  <rect x="340" y="294" width="14" height="14" rx="3" fill="#7096D1"/>
+  <rect x="446" y="294" width="14" height="14" rx="3" fill="#334EAC"/>
+  <!-- 侧栏浮层 -->
+  <rect x="300" y="48" width="123" height="238" fill="#122A57" opacity="0.95"/>
+  <line x1="423" y1="48" x2="423" y2="286" stroke="#D0E3FF" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <rect x="312" y="64" width="92" height="10" rx="3" fill="#334EAC"/>
+  <rect x="312" y="84" width="64" height="7" rx="3" fill="#2A3E70"/>
+  <rect x="312" y="98" width="72" height="7" rx="3" fill="#2A3E70"/>
+  <rect x="312" y="112" width="58" height="7" rx="3" fill="#2A3E70"/>
+  <text x="430" y="196" fill="#D0E3FF" font-size="10" font-family="sans-serif" font-weight="bold">390px 全宽</text>
+  <text x="306" y="268" fill="#BAD6EB" font-size="10" font-family="sans-serif">320px 浮层</text>
+  <text x="430" y="268" fill="#7096D1" font-size="9" font-family="sans-serif">点遮罩关闭</text>
+
+  <text x="20" y="336" fill="#7096D1" font-size="10" font-family="sans-serif">示意图（非截图）· 390×844 手机视口实测值 · 底部两格导航：对话 / 会话</text>
+</svg>
